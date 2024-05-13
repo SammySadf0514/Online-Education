@@ -1,0 +1,402 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-image: url("images/black_matte.avif");
+    background-size: cover;
+    color: white;
+}
+
+.navbar {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+}
+
+.nav_img {
+    background-image: url("images/logo.png");
+    height: 50px;
+    width: 150px;
+    background-size: cover;
+}
+
+.nav_options {
+    font-size: 30px;
+    color: wheat;
+}
+
+.nav_options:hover i {
+    cursor: pointer;
+}
+
+.resources {
+    padding: 100px 50px;
+}
+
+.list_heading {
+    text-align: left;
+    padding-left: 17%;
+    padding-bottom: 50PX;
+    font-size: 30px;
+}
+
+.list {
+    padding-left: 20%;
+    font-size: 20px;
+}
+
+.list:hover li {
+    cursor: pointer;
+}
+
+.list li {
+    list-style-type: "🔗";
+    padding: 5px;
+}
+
+.exam {
+    padding: 50px 100px;
+    text-align: center;
+    width: 100vw;
+    height: auto;
+}
+
+.exam h2 {
+    padding-bottom: 20px;
+    font-size: 32px;
+}
+
+.exam h4 {
+    font-size: 18px;
+    padding: 10px 0;
+}
+
+.exam_category {
+    display: flex;
+    padding: 20px 5px;
+    border: 1px solid aqua;
+    border-radius: 10px;
+}
+
+.exam_category h2 {
+    color: aquamarine;
+}
+
+.exam_category p {
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+.exam_type1 {
+    padding: 50px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.exam_type2 {
+    padding: 50px 30px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.box_content {
+    height: auto;
+    width: 60%;
+}
+
+.box_image {
+    width: 40%;
+    height: auto;
+    border-radius: 50px;
+}
+
+#box_image1 {
+    background-image: url("images/neet.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#box_image2 {
+    background-image: url("images/JEE.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#box_image3 {
+    background-image: url("images/UPSC.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#box_image4 {
+    background-image: url("images/govt_job.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#box_image5 {
+    background-image: url("images/defense.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#box_image6 {
+    background-image: url("images/CA.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#explore {
+    cursor: pointer;
+}
+
+#explore:hover {
+    color: aqua;
+}
+
+.exam_category:hover {
+    transform: scale(1.1);
+    transition: transform 0.9s ease;
+}
+
+.exam_category:hover .box_content {
+    transform: scale(1.1);
+}
+
+.students_trust {
+    padding: 50px 100px;
+    width: 100vw;
+    height: auto;
+}
+
+.students_trust_heading {
+    text-align: center;
+}
+
+.students_trust_heading h2 {
+    font-size: 32px;
+    padding-bottom: 20px;
+}
+
+.students_trust_heading p {
+    font-size: 20px;
+    padding-bottom: 20px;
+    color: rgb(179, 179, 179);
+}
+
+.trust_boxes {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+#trust {
+    width: 265px;
+    height: 265px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+
+#trust h2 {
+    font-size: 30px;
+    padding: 10px 0;
+}
+
+#trust p {
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+
+#trust img {
+    visibility: hidden;
+}
+
+.trust_box1 {
+    background-color: #442700;
+}
+
+.trust_box2 {
+    background-color: #3D0000;
+}
+
+.trust_box3 {
+    background-color: #003743;
+}
+
+.trust_box4 {
+    background-color: #1F2132;
+}
+
+#trust:hover {
+    transform: scale(1.1);
+    transition: transform 0.9s ease;
+}
+
+#trust:hover h1 {
+    transform: scale(1.1);
+}
+
+#trust:hover p {
+    transform: scale(1.1);
+}
+
+#trust:hover img {
+    visibility: visible;
+    transition: transform 0.9s ease;
+}
+
+.trust_button {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.trust_button button {
+    background-color: blueviolet;
+    color: white;
+    font-size: 20px;
+    padding: 14px 28px;
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.trust_button button:hover {
+    background-color: lightblue;
+    cursor: pointer;
+
+}
+
+.resources {
+    padding: 100px 50px;
+}
+
+.info_heading {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.info_heading h2 {
+    font-size: 32px;
+    padding: 20px 0;
+}
+
+.info_heading p {
+    font-size: 20px;
+    padding-bottom: 20px;
+    color: rgb(179, 179, 179);
+}
+
+.resources_boxes {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    padding: 0 50px;
+}
+
+#info_box {
+    width: 322px;
+    height: 390px;
+    text-align: left;
+    border-radius: 10px;
+    padding: 14px 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* Align content at the bottom */
+}
+
+#info_box h3 {
+    padding: 10px 0;
+}
+
+#info_box img {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.resources_boxes1 {
+    background-color: #222527;
+}
+
+.resources_boxes2 {
+    background-color: #4E3200;
+}
+
+.resources_boxes3 {
+    background-color: #00412E;
+}
+
+#info_box:hover img {
+    transform: scale(1.1);
+    transition: transform 0.9s ease;
+    cursor: pointer;
+}
+
+.offline {
+    background-color: #181A1B;
+    padding: 50px 100px;
+    width: 100vw;
+    height: auto;
+}
+
+.offline_heading {
+    text-align: center;
+}
+
+.offline_heading h1 {
+    padding: 20px 0;
+}
+
+.offline_highlights {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+#circle {
+    display: flex;
+    align-items: center;
+}
+
+#circle_img {
+    margin-left: 10px;
+    width: 50px;
+    height: 41px;
+}
+
+.circle_img1 {
+    background-image: url("images/centre.png");
+    background-size: cover;
+}
+
+.circle_img2 {
+    background-image: url("images/city.png");
+    background-size: cover;
+}
+
+.circle_img3 {
+    background-image: url("images/centre_type.png");
+    background-size: cover;
+}
+
+.circle_img4 {
+    background-image: url("images/exam_type.png");
+    background-size: cover;
+}

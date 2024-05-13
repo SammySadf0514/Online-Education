@@ -1,0 +1,166 @@
+/* For tablets */
+@media screen and (max-width: 768px) {
+    .navbar {
+        padding: 15px;
+    }
+
+    .nav_img {
+        width: 120px;
+    }
+
+    .nav_options {
+        font-size: 25px;
+    }
+
+    .resources {
+        padding: 80px 30px;
+    }
+
+    .list_heading {
+        padding-left: 5%;
+        font-size: 25px;
+    }
+
+    .list {
+        padding-left: 5%;
+        font-size: 18px;
+    }
+
+    .exam {
+        padding: 50px 30px;
+    }
+
+    .exam_category {
+        flex-direction: column;
+    }
+
+    .exam_type1,
+    .exam_type2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box_content {
+        width: 80%;
+    }
+
+    .box_image {
+        width: 60%;
+    }
+
+    .students_trust {
+        padding: 50px 30px;
+    }
+
+    .students_trust_heading h2 {
+        font-size: 28px;
+    }
+
+    .students_trust_heading p {
+        font-size: 18px;
+    }
+
+    .trust_boxes {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #trust {
+        width: 220px;
+        height: 220px;
+    }
+
+    .trust_button {
+        padding: 40px 0;
+    }
+
+    .trust_button button {
+        width: 200px;
+        height: 40px;
+        font-size: 16px;
+    }
+
+    .resources {
+        padding: 80px 30px;
+    }
+
+    .resources_boxes {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #info_box {
+        width: 80%;
+        height: auto;
+    }
+
+    #info_box h3 {
+        font-size: 24px;
+    }
+
+    #info_box img {
+        height: auto;
+    }
+
+    .offline {
+        padding: 50px 30px;
+    }
+
+    .offline_heading h1 {
+        font-size: 28px;
+    }
+
+    .offline_highlights {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* For mobile devices */
+@media screen and (max-width: 480px) {
+    .nav_img {
+        width: 100px;
+    }
+
+    .nav_options {
+        font-size: 20px;
+    }
+
+    .list_heading {
+        padding-left: 5%;
+        font-size: 22px;
+    }
+
+    .list {
+        padding-left: 5%;
+        font-size: 16px;
+    }
+
+    .resources {
+        padding: 50px 20px;
+    }
+
+    .resources_boxes {
+        padding: 0 20px;
+    }
+
+    #info_box {
+        width: 90%;
+    }
+
+    #info_box h3 {
+        font-size: 20px;
+    }
+
+    #info_box img {
+        height: 150px;
+    }
+
+    .offline {
+        padding: 50px 20px;
+    }
+
+    .offline_heading h1 {
+        font-size: 24px;
+    }
+}
